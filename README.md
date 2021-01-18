@@ -4,7 +4,7 @@ This project aimed to test a Directed Acyclic Graph architecture in a basic clas
 # Conclusion:
 After examining post-training weights, the network does not appear to need a DAG weight setup - a standard, linear network would (for this case at least) do the job just as well. A potential application for this architecture could be a use case where static weights or layers impede accurate data forward-propogation, requiring a topological, DAG-like detour.
 
-# Used Resources:
+# Resources Used:
 Keras Documentation: https://keras.io/
 Iris Dataset: https://archive.ics.uci.edu/ml/datasets/Iris/
 
