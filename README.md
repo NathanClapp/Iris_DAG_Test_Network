@@ -1,4 +1,4 @@
-# DAG_NN
+# Iris DAG Test Network
 This project aimed to test a Directed Acyclic Graph architecture in a basic classifier neural network, in order to determine potential advantages over linear networks. The Iris flower dataset is used for training and evaluation.
 
 # Conclusion:
