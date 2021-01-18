@@ -1,5 +1,5 @@
 # DAG_NN
-This project aimed to test a Directed Acyclic Graph architecture in a basic classifier neural network, in order to determine potential advantages over linear networks. The Iris flower dataset is used for training and evaluatino.
+This project aimed to test a Directed Acyclic Graph architecture in a basic classifier neural network, in order to determine potential advantages over linear networks. The Iris flower dataset is used for training and evaluation.
 
 # Conclusion:
 After examining post-training weights, the network does not appear to need a DAG weight setup - a standard, linear network would (for this case at least) do the job just as well. A potential application for this architecture could be a use case where static weights or layers impede accurate data forward-propogation, requiring a topological, DAG-like detour.
